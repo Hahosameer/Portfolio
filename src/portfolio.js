@@ -211,7 +211,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/youtube.jpg"),
+      image: require("./assets/1.jpg"),
       projectName: "YouTube",
       projectDesc:
         "Empower your voice, creativity, and exploration with the boundless world of YouTube!",
