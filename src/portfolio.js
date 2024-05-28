@@ -23,7 +23,7 @@ const greeting = {
   username: "Sameer Khan",
   title: "Hi all, I'm Sameer",
   subTitle: emoji(
-    "A passionate  Morn stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs /  and some other cool libraries and frameworks."
+    "A passionate  Mern stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs /  and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -113,8 +113,8 @@ const educationInfo = {
       duration: "September 2021 - April 2023",
       desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     // {
