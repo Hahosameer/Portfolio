@@ -10,7 +10,8 @@ import {
   openSource,
   blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  bigProjects // Import bigProjects
 } from "../../portfolio";
 
 function Header() {
@@ -21,6 +22,7 @@ function Header() {
   const viewAchievement = achievementSection.display;
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
+  const viewProjects = bigProjects.display; // Check if projects section should be displayed
 
   return (
     <Headroom>
@@ -45,28 +47,23 @@ function Header() {
             </li>
           )}
           {viewExperience && (
-            <li>
-              {/* <a href="#experience">Work Experiences</a> */}
-            </li>
+            <li>{/* <a href="#experience">Work Experiences</a> */}</li>
           )}
           {viewOpenSource && (
-            <li>
-              {/* <a href="#opensource">Open Source</a> */}
-            </li>
+            <li>{/* <a href="#opensource">Open Source</a> */}</li>
           )}
           {viewAchievement && (
-            <li>
-              {/* <a href="#achievements">Achievements</a> */}
-            </li>
+            <li>{/* <a href="#achievements">Achievements</a> */}</li>
           )}
           {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          {viewTalks && (
+          {viewTalks && <li>{/* <a href="#talks">Talks</a> */}</li>}
+          {viewProjects && (
             <li>
-              <a href="#talks">Talks</a>
+              <a href="#projects">Projects</a> {/* Add this line */}
             </li>
           )}
           <li>

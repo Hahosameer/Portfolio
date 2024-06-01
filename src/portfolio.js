@@ -26,7 +26,7 @@ const greeting = {
     "A passionate  Mern stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs /  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13L94nrO-nGdioiq5Kb-hILMFssMmPzzN/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,7 +47,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY MORN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY MERN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -96,6 +96,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "MongoDB",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Material-UI",
+      fontAwesomeClassname: "fas fa-palette"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -108,23 +112,23 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Govt. Boys College, korangi 6, Karachi",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/inter.png"),
       subHeader: "Intermediate in Commerce",
-      duration: "September 2021 - April 2023",
+      duration: " 2022 -  2023",
       desc: "",
       descBullets: [
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         // "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
+    {
+      schoolName: "Goverment boys School, karachi",
+      logo: require("./assets/images/matric.jpg"),
+      subHeader: "Matriculation in Science",
+      duration: "2020  -  2021",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
   ]
 };
 
@@ -331,13 +335,13 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+      // url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
       title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
       description:
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      // url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
@@ -368,8 +372,8 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: emoji("Podcast 🎙️"),
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
