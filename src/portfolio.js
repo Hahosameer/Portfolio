@@ -26,7 +26,7 @@ const greeting = {
     "A passionate  Mern stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs /  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1VURAh05VjYdrPwlVbBAkbeTxZIBRwaqT/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1G8bvYcc5G41lvEruJyRz9butexzMreEI/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -215,14 +215,26 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/1.jpg"),
-      projectName: "YouTube",
+      image: require("./assets/images/linkedin.png"),
+      projectName: "Linkedin",
       projectDesc:
-        "Empower your voice, creativity, and exploration with the boundless world of YouTube!",
+        "Develop a professional networking platform inspired by LinkedIn, leveraging React for the front-end and Firebase for the back-end. This app provides a seamless experience for users to connect, share professional updates, and expand their network. Enjoy real-time data synchronization and a dynamic user interface powered by modern web technologies.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://video-app-frontend-pearl.vercel.app/"
+          url: "https://linkedin-clone-iota-brown.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/faecbook.png"),
+      projectName: "Faecbook",
+      projectDesc:
+        "Create a cutting-edge social media application, inspired by Facebook, using React for the front-end and Node.js for the back-end. This platform offers seamless user interactions, real-time updates, and a robust environment for sharing content and connecting with friends. Enjoy a modern and intuitive user experience with the power of JavaScript technologies",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://facebook-frontend.vercel.app/"
         }
       ]
     },
