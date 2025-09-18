@@ -204,8 +204,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ecommerce.jpeg"),
       projectName: "E-commerce",
-      projectDesc:
-        "E-commerce made effortless with Gemini: Shop seamlessly, explore curated collections, and enjoy secure transactions, all in one convenient app",
+      // projectDesc:
+      //   "E-commerce made effortless with Gemini: Shop seamlessly, explore curated collections, and enjoy secure transactions, all in one convenient app",
       footerLink: [
         {
           name: "Visit Website",
@@ -217,8 +217,8 @@ const bigProjects = {
     {
       image: require("./assets/images/linkedin.png"),
       projectName: "Linkedin",
-      projectDesc:
-        "Develop a professional networking platform inspired by LinkedIn, leveraging React for the front-end and Firebase for the back-end. This app provides a seamless experience for users to connect, share professional updates, and expand their network. Enjoy real-time data synchronization and a dynamic user interface powered by modern web technologies.",
+      // projectDesc:
+      //   "Develop a professional networking platform inspired by LinkedIn, leveraging React for the front-end and Firebase for the back-end. This app provides a seamless experience for users to connect, share professional updates, and expand their network. Enjoy real-time data synchronization and a dynamic user interface powered by modern web technologies.",
       footerLink: [
         {
           name: "Visit Website",
@@ -229,8 +229,8 @@ const bigProjects = {
     {
       image: require("./assets/images/faecbook.png"),
       projectName: "Faecbook",
-      projectDesc:
-        "Create a cutting-edge social media application, inspired by Facebook, using React for the front-end and Node.js for the back-end. This platform offers seamless user interactions, real-time updates, and a robust environment for sharing content and connecting with friends. Enjoy a modern and intuitive user experience with the power of JavaScript technologies",
+      // projectDesc:
+      //   "Create a cutting-edge social media application, inspired by Facebook, using React for the front-end and Node.js for the back-end. This platform offers seamless user interactions, real-time updates, and a robust environment for sharing content and connecting with friends. Enjoy a modern and intuitive user experience with the power of JavaScript technologies",
       footerLink: [
         {
           name: "Visit Website",
@@ -242,8 +242,8 @@ const bigProjects = {
     {
       image: require("./assets/Gemini.png"),
       projectName: "Gemini App",
-      projectDesc:
-        "Gemini app: Your personalized astrology and horoscope guide, offering daily insights and celestial forecasts.t",
+      // projectDesc:
+      //   "Gemini app: Your personalized astrology and horoscope guide, offering daily insights and celestial forecasts.t",
       footerLink: [
         {
           name: "Visit Website",
@@ -254,7 +254,7 @@ const bigProjects = {
     {
       image: require("./assets/images.jpg"),
       projectName: "Weather App",
-      projectDesc: "A simple and fast way to check the weather.",
+      // projectDesc: "A simple and fast way to check the weather.",
       footerLink: [
         {
           name: "Visit Website",
@@ -265,7 +265,7 @@ const bigProjects = {
     {
       image: require("./assets/coin.jpg"),
       projectName: "Currency-Converter-App",
-      projectDesc: "A handy tool for converting currencies on the go..",
+      // projectDesc: "A handy tool for converting currencies on the go..",
       footerLink: [
         {
           name: "Visit Website",
