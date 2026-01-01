@@ -26,7 +26,7 @@ const greeting = {
     "A passionate  Mern stack Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs /  and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1G8bvYcc5G41lvEruJyRz9butexzMreEI/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1MfPiro08KbQmXlhZdX6AwW1HlXUcJVSW/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,60 +48,51 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY MERN STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-  skills: [
-    // emoji(
-    //   "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    // ),
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    // emoji(
-    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    // )
-  ],
+skills: [
+  emoji("⚡ MERN Stack Developer (MongoDB, Express.js, React.js, Node.js)"),
+  emoji("⚡ Interactive & Responsive UI Development with React.js"),
+  emoji("⚡ Single Page Applications (SPA) & Progressive Web Apps (PWA)"),
+  emoji("⚡ REST APIs & JWT-based Authentication"),
+  emoji("⚡ Firebase Integration (Auth & Storage)")
+],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
+ softwareSkills: [
+  // Frontend
+  { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "Redux", fontAwesomeClassname: "fas fa-project-diagram" },
+  { skillName: "Sass / SCSS", fontAwesomeClassname: "fab fa-sass" },
+  { skillName: "Tailwind CSS", fontAwesomeClassname: "fas fa-wind" },
+  { skillName: "Bootstrap", fontAwesomeClassname: "fab fa-bootstrap" },
 
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
+  // Backend
+  { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+  { skillName: "Express.js", fontAwesomeClassname: "fas fa-server" },
+  { skillName: "PHP", fontAwesomeClassname: "fab fa-php" },
+  { skillName: "REST APIs", fontAwesomeClassname: "fas fa-plug" },
 
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+  // Database
+  { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
+  { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
 
-    {
-      skillName: "MongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "Material-UI",
-      fontAwesomeClassname: "fas fa-palette"
-    }
-  ],
+  // Cloud / Services
+  { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+  // UI / UX
+  { skillName: "Material UI", fontAwesomeClassname: "fas fa-palette" },
+  { skillName: "Figma (UI/UX)", fontAwesomeClassname: "fab fa-figma" },
+
+    // Tools
+  { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
+  { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+  { skillName: "Postman", fontAwesomeClassname: "fas fa-paper-plane" }
+]
+
+,
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -135,23 +126,30 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Show proficiency bars
   experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+    // Frontend & Design
+    { Stack: "HTML5", progressPercentage: "90%" },
+    { Stack: "CSS3 / Sass / Tailwind / Bootstrap", progressPercentage: "85%" },
+    { Stack: "JavaScript / React.js / Redux", progressPercentage: "85%" },
+    { Stack: "UI/UX Design (Figma, Material UI)", progressPercentage: "80%" },
+
+    // Backend
+    { Stack: "Node.js / Express.js", progressPercentage: "75%" },
+    { Stack: "PHP", progressPercentage: "70%" },
+    { Stack: "REST APIs / Postman", progressPercentage: "80%" },
+
+    // Database
+    { Stack: "MongoDB", progressPercentage: "75%" },
+    { Stack: "MySQL / SQL", progressPercentage: "70%" },
+
+    // Tools & Cloud
+    { Stack: "Firebase (Auth & Storage)", progressPercentage: "80%" },
+    { Stack: "Git / GitHub / npm", progressPercentage: "85%" }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // No CodersRank badges
 };
+
 
 // Work experience section
 
@@ -159,31 +157,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     
-    // {
-    //   role: "Fresh",
-    //   company: "Facebook",
-    //   companylogo: require("./assets/images/facebookLogo.png"),
-    //   date: "June 2018 – Present",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    //   descBullets: [
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    //   ]
-    // },
-    // {
-    //   role: "Front-End Developer",
-    //   company: "Quora",
-    //   companylogo: require("./assets/images/quoraLogo.png"),
-    //   date: "May 2017 – May 2018",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // },
-    // {
-    //   role: "Software Engineer Intern",
-    //   company: "Airbnb",
-    //   companylogo: require("./assets/images/airbnbLogo.png"),
-    //   date: "Jan 2015 – Sep 2015",
-    //   desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    // }
+    {
+      role: "Fresh",
+      company: "Facebook",
+      companylogo: require("./assets/images/facebookLogo.png"),
+      date: "June 2018 – Present",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      role: "Front-End Developer",
+      company: "Quora",
+      companylogo: require("./assets/images/quoraLogo.png"),
+      date: "May 2017 – May 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
   ]
 };
 
@@ -286,54 +284,54 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    // {
-    //   title: "Google Code-In Finalist",
-    //   subtitle:
-    //     "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-    //   image: require("./assets/images/codeInLogo.webp"),
-    //   imageAlt: "Google Code-In Logo",
-    //   footerLink: [
-    //     {
-    //       name: "Certification",
-    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-    //     },
-    //     {
-    //       name: "Award Letter",
-    //       url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-    //     },
-    //     {
-    //       name: "Google Code-in Blog",
-    //       url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-    //     }
-    //   ]
-    // },
-    // {
-    //   title: "Google Assistant Action",
-    //   subtitle:
-    //     "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-    //   image: require("./assets/images/googleAssistantLogo.webp"),
-    //   imageAlt: "Google Assistant Action Logo",
-    //   footerLink: [
-    //     {
-    //       name: "View Google Assistant Action",
-    //       url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-    //     }
-    //   ]
-    // },
+    {
+      title: "Google Code-In Finalist",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        },
+        {
+          name: "Award Letter",
+          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+        },
+        {
+          name: "Google Code-in Blog",
+          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }
+      ]
+    },
+    {
+      title: "Google Assistant Action",
+      subtitle:
+        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Google Assistant Action Logo",
+      footerLink: [
+        {
+          name: "View Google Assistant Action",
+          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+        }
+      ]
+    },
 
-    // {
-    //   title: "PWA Web App Developer",
-    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-    //   image: require("./assets/images/pwaLogo.webp"),
-    //   imageAlt: "PWA Logo",
-    //   footerLink: [
-    //     {name: "Certification", url: ""},
-    //     {
-    //       name: "Final Project",
-    //       url: "https://pakistan-olx-1.firebaseapp.com/"
-    //     }
-    //   ]
-    // }
+    {
+      title: "PWA Web App Developer",
+      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {name: "Certification", url: ""},
+        {
+          name: "Final Project",
+          url: "https://pakistan-olx-1.firebaseapp.com/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };

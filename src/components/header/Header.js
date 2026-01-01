@@ -47,20 +47,20 @@ function Header() {
             </li>
           )}
           {viewExperience && (
-            <li>{/* <a href="#experience">Work Experiences</a> */}</li>
+            <li>{ <a href="#experience">Work Experiences</a> }</li>
           )}
-          {viewOpenSource && (
-            <li>{/* <a href="#opensource">Open Source</a> */}</li>
-          )}
+          {/* {viewOpenSource && (
+            <li>{ <a href="#opensource">Open Source</a> }</li>
+          )} */}
           {viewAchievement && (
-            <li>{/* <a href="#achievements">Achievements</a> */}</li>
+            <li>{ <a href="#achievements">Achievements</a> }</li>
           )}
-          {viewBlog && (
+          {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
-          )}
-          {viewTalks && <li>{/* <a href="#talks">Talks</a> */}</li>}
+          )} */}
+          {/* {viewTalks && <li>{ <a href="#talks">Talks</a> }</li>} */}
           {viewProjects && (
             <li>
               <a href="#projects">Projects</a> {/* Add this line */}
